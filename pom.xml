@@ -7,7 +7,27 @@
  <packaging>jar</packaging>
 
  <name>ossrh-demo</name>
-
+ <description>A demo for deployment to the Central Repository via OSSRH</description>
+ <url>http://github.com/simpligility/ossrh-demo</url>
+ <licenses>
+  <license>
+   <name>The Apache Software License, Version 2.0</name>
+   <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+  </license>
+ </licenses>
+  <developers>
+    <developer>
+      <name>Manfred Moser</name>
+      <email>manfred@simpligility.com</email>
+      <organization>simpligility technologies inc.</organization>
+      <organizationUrl>http://www.simpligility.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/simpligility/ossrh-demo.git</connection>
+    <developerConnection>scm:git:git@github.com:simpligility/ossrh-demo.git</developerConnection>
+    <url>http://github.com/simpligility/ossrh-demo/tree/master</url>
+  </scm>
 
  <distributionManagement>
   <snapshotRepository>
@@ -19,7 +39,6 @@
    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
   </repository>
  </distributionManagement>
-
 
  <properties>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
