@@ -25,7 +25,7 @@
  </developers>
  <scm>
   <connection>scm:git:git://github.com/simpligility/ossrh-demo.git</connection>
-  <developerConnection>scm:git:git@github.com:simpligility/ossrh-demo.git</developerConnection>
+  <developerConnection>scm:git:ssh://github.com:simpligility/ossrh-demo.git</developerConnection>
   <url>http://github.com/simpligility/ossrh-demo/tree/master</url>
  </scm>
 
